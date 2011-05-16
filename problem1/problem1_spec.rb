@@ -1,4 +1,4 @@
-require 'problem1'
+require File.join(File.dirname(File.expand_path(__FILE__)), 'problem1')
 
 describe CurrencyConverter do
   before(:all) do
